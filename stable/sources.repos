@@ -1,0 +1,18 @@
+repositories:
+  # Use upstream repo once https://github.com/frankaemika/franka_ros2/pull/13 is merged
+  ros2_controllers:
+    type: git
+    url: https://github.com/JafarAbdi/ros2_controllers.git
+    version: pr-jtc_fix_initial_pose
+  franka_ros2:
+    type: git
+    url: https://github.com/JafarAbdi/franka_ros2.git
+    version: moveit_config_builder
+  libfranka:
+    type: git
+    url: https://github.com/JafarAbdi/libfranka-release.git
+    version: humble
+  moveit2:
+    type: git
+    url: https://github.com/ros-planning/moveit2.git
+    version: main

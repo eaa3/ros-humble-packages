@@ -1,0 +1,20 @@
+name: stable-builder
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'stable/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: ROS buildfarm
+        uses: jspricke/ros-deb-builder-action@main
+        with:
+          DEB_DISTRO: jammy
+          ROS_DISTRO: humble
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SQUASH_HISTORY: true
+          REPOS_FILE: stable/sources.repos

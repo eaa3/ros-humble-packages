@@ -1,0 +1,81 @@
+diff_drive_controller:
+  ubuntu:
+  - ros-humble-diff-drive-controller
+force_torque_sensor_broadcaster:
+  ubuntu:
+  - ros-humble-force-torque-sensor-broadcaster
+forward_command_controller:
+  ubuntu:
+  - ros-humble-forward-command-controller
+effort_controllers:
+  ubuntu:
+  - ros-humble-effort-controllers
+franka_bringup:
+  ubuntu:
+  - ros-humble-franka-bringup
+franka_description:
+  ubuntu:
+  - ros-humble-franka-description
+franka_moveit_config:
+  ubuntu:
+  - ros-humble-franka-moveit-config
+franka_msgs:
+  ubuntu:
+  - ros-humble-franka-msgs
+franka_example_controllers:
+  ubuntu:
+  - ros-humble-franka-example-controllers
+gripper_controllers:
+  ubuntu:
+  - ros-humble-gripper-controllers
+imu_sensor_broadcaster:
+  ubuntu:
+  - ros-humble-imu-sensor-broadcaster
+joint_state_broadcaster:
+  ubuntu:
+  - ros-humble-joint-state-broadcaster
+joint_trajectory_controller:
+  ubuntu:
+  - ros-humble-joint-trajectory-controller
+admittance_controller:
+  ubuntu:
+  - ros-humble-admittance-controller
+libfranka:
+  ubuntu:
+  - ros-humble-libfranka
+franka_gripper:
+  ubuntu:
+  - ros-humble-franka-gripper
+franka_hardware:
+  ubuntu:
+  - ros-humble-franka-hardware
+position_controllers:
+  ubuntu:
+  - ros-humble-position-controllers
+ros2_controllers:
+  ubuntu:
+  - ros-humble-ros2-controllers
+ros2_controllers_test_nodes:
+  ubuntu:
+  - ros-humble-ros2-controllers-test-nodes
+rqt_joint_trajectory_controller:
+  ubuntu:
+  - ros-humble-rqt-joint-trajectory-controller
+steering_controllers_library:
+  ubuntu:
+  - ros-humble-steering-controllers-library
+ackermann_steering_controller:
+  ubuntu:
+  - ros-humble-ackermann-steering-controller
+bicycle_steering_controller:
+  ubuntu:
+  - ros-humble-bicycle-steering-controller
+tricycle_controller:
+  ubuntu:
+  - ros-humble-tricycle-controller
+tricycle_steering_controller:
+  ubuntu:
+  - ros-humble-tricycle-steering-controller
+velocity_controllers:
+  ubuntu:
+  - ros-humble-velocity-controllers

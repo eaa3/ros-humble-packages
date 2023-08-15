@@ -1,0 +1,13 @@
+repositories:
+  franka_ros2:
+    type: git
+    url: https://github.com/JafarAbdi/franka_ros2.git
+    version: 100.0.0
+  libfranka:
+    type: git
+    url: https://github.com/JafarAbdi/libfranka-release.git
+    version: f9d57bbfa179a5cf1ca404b009be826d7a47cf95
+  ros2_controllers:
+    type: git
+    url: https://github.com/JafarAbdi/ros2_controllers.git
+    version: 100.0.0

@@ -1,18 +1,33 @@
 repositories:
-  # Use upstream repo once https://github.com/frankaemika/franka_ros2/pull/13 is merged
+  # Need to include:
+  #   - https://github.com/ros-controls/ros2_controllers/pull/558
+  #   - https://github.com/ros-controls/ros2_controllers/pull/706
   ros2_controllers:
     type: git
     url: https://github.com/JafarAbdi/ros2_controllers.git
-    version: pr-jtc_fix_initial_pose
+    version: release
+  # Use upstream repo once https://github.com/frankaemika/franka_ros2/pull/13 is merged
   franka_ros2:
     type: git
     url: https://github.com/JafarAbdi/franka_ros2.git
-    version: moveit_config_builder
+    version: release
   libfranka:
     type: git
     url: https://github.com/JafarAbdi/libfranka-release.git
     version: humble
   moveit2:
     type: git
-    url: https://github.com/ros-planning/moveit2.git
-    version: main
+    url: https://github.com/JafarAbdi/moveit2.git
+    version: release
+  moveit_msgs:
+    type: git
+    url: https://github.com/ros-planning/moveit_msgs.git
+    version: ros2
+  ros2_robotiq_gripper:
+    type: git
+    url: https://github.com/JafarAbdi/ros2_robotiq_gripper.git
+    version: release
+  serial:
+    type: git
+    url: https://github.com/JafarAbdi/serial.git
+    version: release

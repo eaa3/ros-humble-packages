@@ -7,7 +7,11 @@ repositories:
     type: git
     url: https://github.com/JafarAbdi/libfranka-release.git
     version: f9d57bbfa179a5cf1ca404b009be826d7a47cf95
+  robotiq_140_description:
+    type: git
+    url: https://github.com/eaa3/robotiq_140_description.git
+    version: 8e65feeb5abd047b5551136a83956d86625fc138
   ros2_controllers:
     type: git
     url: https://github.com/JafarAbdi/ros2_controllers.git
-    version: 100.0.0
+    version: 100.0.1

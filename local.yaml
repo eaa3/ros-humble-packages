@@ -52,6 +52,9 @@ franka_hardware:
 position_controllers:
   ubuntu:
   - ros-humble-position-controllers
+robotiq_140_description:
+  ubuntu:
+  - ros-humble-robotiq-140-description
 ros2_controllers:
   ubuntu:
   - ros-humble-ros2-controllers

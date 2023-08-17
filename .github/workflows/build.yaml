@@ -10,6 +10,8 @@ jobs:
   build:
     runs-on: ubuntu-22.04
     steps:
+      - name: Check disk space
+        run: df -h
       - name: ROS buildfarm
         uses: jspricke/ros-deb-builder-action@main
         with:

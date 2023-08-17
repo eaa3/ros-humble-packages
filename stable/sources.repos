@@ -15,3 +15,7 @@ repositories:
     type: git
     url: https://github.com/JafarAbdi/libfranka-release.git
     version: humble
+  robotiq_140_description:
+    type: git
+    url: https://github.com/eaa3/robotiq_140_description.git
+    version: master

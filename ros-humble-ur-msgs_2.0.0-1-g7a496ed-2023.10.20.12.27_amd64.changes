@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Tue, 12 Apr 2022 00:00:00 -0000
+Source: ros-humble-ur-msgs
+Binary: ros-humble-ur-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.0.0-1-g7a496ed-2023.10.20.12.27
+Distribution: jammy
+Urgency: high
+Maintainer: G.A. vd. Hoorn <g.a.vanderhoorn@tudelft.nl>
+Changed-By: G.A. vd. Hoorn <g.a.vanderhoorn@tudelft.nl>
+Description:
+ ros-humble-ur-msgs - Message and service definitions for interacting with Universal Ro
+Changes:
+ ros-humble-ur-msgs (2.0.0-1-g7a496ed-2023.10.20.12.27) jammy; urgency=high
+ .
+   * Porting to ros2 (#12 <https://github.com/destogl/ur_msgs/issues/12>)
+   * Document pin mapping in SetIO service (#16 <https://github.com/destogl/ur_msgs/issues/16>)
+   * Contributors: Denis Štogl, Felix Exner, gavanderhoorn
+Checksums-Sha1:
+ e4d5a3aea48de5fe203b7fb975b6913587594292 818912 ros-humble-ur-msgs-dbgsym_2.0.0-1-g7a496ed-2023.10.20.12.27_amd64.ddeb
+ 9d204762facd2ab3672834a32c6e50d46be721d3 14538 ros-humble-ur-msgs_2.0.0-1-g7a496ed-2023.10.20.12.27_amd64.buildinfo
+ b3291f22f113a9ade41f41994eb48d04e9d3b704 147954 ros-humble-ur-msgs_2.0.0-1-g7a496ed-2023.10.20.12.27_amd64.deb
+Checksums-Sha256:
+ 9fc462e91fc87b1dd9afce85167ed9cd2157737a694f92cc2431ab27ca658917 818912 ros-humble-ur-msgs-dbgsym_2.0.0-1-g7a496ed-2023.10.20.12.27_amd64.ddeb
+ 890d0bb8f91f6e55099e6fb3ad4c668ffa2e71cb0be9044b54af0ff97b25c24a 14538 ros-humble-ur-msgs_2.0.0-1-g7a496ed-2023.10.20.12.27_amd64.buildinfo
+ c696979796404a4543f031545656dd581517c0cdee86bca071b3fcb0c3d7e45a 147954 ros-humble-ur-msgs_2.0.0-1-g7a496ed-2023.10.20.12.27_amd64.deb
+Files:
+ a0d740a2a955169c204ece012c0ae9cd 818912 debug optional ros-humble-ur-msgs-dbgsym_2.0.0-1-g7a496ed-2023.10.20.12.27_amd64.ddeb
+ a892cf8f218d3ee1f17302862f8da8a6 14538 misc optional ros-humble-ur-msgs_2.0.0-1-g7a496ed-2023.10.20.12.27_amd64.buildinfo
+ 5ba88690f2da36dc1a292ee441760425 147954 misc optional ros-humble-ur-msgs_2.0.0-1-g7a496ed-2023.10.20.12.27_amd64.deb

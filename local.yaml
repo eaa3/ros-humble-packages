@@ -1,84 +1,33 @@
-diff_drive_controller:
-  ubuntu:
-  - ros-humble-diff-drive-controller
-force_torque_sensor_broadcaster:
-  ubuntu:
-  - ros-humble-force-torque-sensor-broadcaster
-forward_command_controller:
-  ubuntu:
-  - ros-humble-forward-command-controller
-effort_controllers:
-  ubuntu:
-  - ros-humble-effort-controllers
-franka_bringup:
-  ubuntu:
-  - ros-humble-franka-bringup
-franka_description:
-  ubuntu:
-  - ros-humble-franka-description
-franka_moveit_config:
-  ubuntu:
-  - ros-humble-franka-moveit-config
-franka_msgs:
-  ubuntu:
-  - ros-humble-franka-msgs
-franka_example_controllers:
-  ubuntu:
-  - ros-humble-franka-example-controllers
-gripper_controllers:
-  ubuntu:
-  - ros-humble-gripper-controllers
-imu_sensor_broadcaster:
-  ubuntu:
-  - ros-humble-imu-sensor-broadcaster
-joint_state_broadcaster:
-  ubuntu:
-  - ros-humble-joint-state-broadcaster
-joint_trajectory_controller:
-  ubuntu:
-  - ros-humble-joint-trajectory-controller
-admittance_controller:
-  ubuntu:
-  - ros-humble-admittance-controller
-libfranka:
-  ubuntu:
-  - ros-humble-libfranka
-franka_gripper:
-  ubuntu:
-  - ros-humble-franka-gripper
-franka_hardware:
-  ubuntu:
-  - ros-humble-franka-hardware
-position_controllers:
-  ubuntu:
-  - ros-humble-position-controllers
 robotiq_140_description:
   ubuntu:
   - ros-humble-robotiq-140-description
-ros2_controllers:
+ur:
   ubuntu:
-  - ros-humble-ros2-controllers
-ros2_controllers_test_nodes:
+  - ros-humble-ur
+ur_bringup:
   ubuntu:
-  - ros-humble-ros2-controllers-test-nodes
-rqt_joint_trajectory_controller:
+  - ros-humble-ur-bringup
+ur_client_library:
   ubuntu:
-  - ros-humble-rqt-joint-trajectory-controller
-steering_controllers_library:
+  - ros-humble-ur-client-library
+ur_dashboard_msgs:
   ubuntu:
-  - ros-humble-steering-controllers-library
-ackermann_steering_controller:
+  - ros-humble-ur-dashboard-msgs
+ur_description:
   ubuntu:
-  - ros-humble-ackermann-steering-controller
-bicycle_steering_controller:
+  - ros-humble-ur-description
+ur_moveit_config:
   ubuntu:
-  - ros-humble-bicycle-steering-controller
-tricycle_controller:
+  - ros-humble-ur-moveit-config
+ur_msgs:
   ubuntu:
-  - ros-humble-tricycle-controller
-tricycle_steering_controller:
+  - ros-humble-ur-msgs
+ur_controllers:
   ubuntu:
-  - ros-humble-tricycle-steering-controller
-velocity_controllers:
+  - ros-humble-ur-controllers
+ur_robot_driver:
   ubuntu:
-  - ros-humble-velocity-controllers
+  - ros-humble-ur-robot-driver
+ur_calibration:
+  ubuntu:
+  - ros-humble-ur-calibration

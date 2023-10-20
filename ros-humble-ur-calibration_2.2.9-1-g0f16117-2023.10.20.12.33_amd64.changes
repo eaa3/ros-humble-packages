@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 22 Sep 2023 00:00:00 -0000
+Source: ros-humble-ur-calibration
+Binary: ros-humble-ur-calibration
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.2.9-1-g0f16117-2023.10.20.12.33
+Distribution: jammy
+Urgency: high
+Maintainer: Felix Exner <exner@fzi.de>
+Changed-By: Felix Exner <exner@fzi.de>
+Description:
+ ros-humble-ur-calibration - Package for extracting the factory calibration from a UR robot an
+Changes:
+ ros-humble-ur-calibration (2.2.9-1-g0f16117-2023.10.20.12.33) jammy; urgency=high
+Checksums-Sha1:
+ 0474325748857ea2059096a70cb409daf3ef029a 1533884 ros-humble-ur-calibration-dbgsym_2.2.9-1-g0f16117-2023.10.20.12.33_amd64.ddeb
+ edb8af16f00cd83201297ce05112bba21933cb37 28985 ros-humble-ur-calibration_2.2.9-1-g0f16117-2023.10.20.12.33_amd64.buildinfo
+ c301ae14281947d1a8fd285575a2a04ee05ffe9e 51618 ros-humble-ur-calibration_2.2.9-1-g0f16117-2023.10.20.12.33_amd64.deb
+Checksums-Sha256:
+ 41a5d35c6d46c8e4b217f5fba52017d9fa8b0ceab5168e65f77a28ddfd7872b4 1533884 ros-humble-ur-calibration-dbgsym_2.2.9-1-g0f16117-2023.10.20.12.33_amd64.ddeb
+ 24ed384175e26736954c4629afb2c1aad828833df231102a734054addccaf30d 28985 ros-humble-ur-calibration_2.2.9-1-g0f16117-2023.10.20.12.33_amd64.buildinfo
+ a4b049181eef00601fcb569a4896ffaec5ea4152510c1f0e039e117b1f4dc35d 51618 ros-humble-ur-calibration_2.2.9-1-g0f16117-2023.10.20.12.33_amd64.deb
+Files:
+ b851b6e003aa0f3fa921d1c527a55978 1533884 debug optional ros-humble-ur-calibration-dbgsym_2.2.9-1-g0f16117-2023.10.20.12.33_amd64.ddeb
+ 890c1bc6621b7308aab18c924e69c28c 28985 misc optional ros-humble-ur-calibration_2.2.9-1-g0f16117-2023.10.20.12.33_amd64.buildinfo
+ abb8deff354c5b0a349744c0bb1d950b 51618 misc optional ros-humble-ur-calibration_2.2.9-1-g0f16117-2023.10.20.12.33_amd64.deb

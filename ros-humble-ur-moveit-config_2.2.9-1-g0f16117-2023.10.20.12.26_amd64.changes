@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 22 Sep 2023 00:00:00 -0000
+Source: ros-humble-ur-moveit-config
+Binary: ros-humble-ur-moveit-config
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.2.9-1-g0f16117-2023.10.20.12.26
+Distribution: jammy
+Urgency: high
+Maintainer: Denis Stogl <denis@stoglrobotics.de>
+Changed-By: Denis Stogl <denis@stoglrobotics.de>
+Description:
+ ros-humble-ur-moveit-config - An example package with MoveIt2 configurations for UR robots.
+Changes:
+ ros-humble-ur-moveit-config (2.2.9-1-g0f16117-2023.10.20.12.26) jammy; urgency=high
+ .
+   * Added support for UR20 (#805 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver/issues/805>)
+   * Contributors: mergify[bot], Felix Exner
+Checksums-Sha1:
+ 58664a3451dc8620ce3c900e7d42a456722f166e 9237 ros-humble-ur-moveit-config_2.2.9-1-g0f16117-2023.10.20.12.26_amd64.buildinfo
+ a612f46c374ece58432130692e8738d27e47e30b 17224 ros-humble-ur-moveit-config_2.2.9-1-g0f16117-2023.10.20.12.26_amd64.deb
+Checksums-Sha256:
+ 1d12d5c3db4d210a950a638581425f26db822fe1677d2015c144221fa570e3ee 9237 ros-humble-ur-moveit-config_2.2.9-1-g0f16117-2023.10.20.12.26_amd64.buildinfo
+ 83f15f5b0223fbfff979d61d44ec3cef07f20411bfe4ebd6127bccc8b9c1772d 17224 ros-humble-ur-moveit-config_2.2.9-1-g0f16117-2023.10.20.12.26_amd64.deb
+Files:
+ b6296180f2aa749930683c2b5feb4dfc 9237 misc optional ros-humble-ur-moveit-config_2.2.9-1-g0f16117-2023.10.20.12.26_amd64.buildinfo
+ 5a9f6a7330327f68aa6af5d448df9480 17224 misc optional ros-humble-ur-moveit-config_2.2.9-1-g0f16117-2023.10.20.12.26_amd64.deb

@@ -1,17 +1,21 @@
 repositories:
-  franka_ros2:
+  Universal_Robots_Client_Library:
     type: git
-    url: https://github.com/JafarAbdi/franka_ros2.git
-    version: 100.0.0
-  libfranka:
-    type: git
-    url: https://github.com/JafarAbdi/libfranka-release.git
-    version: f9d57bbfa179a5cf1ca404b009be826d7a47cf95
+    url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
+    version: 111ddf2aadc0cd6adadfd963687af2ab4ae61a78
   robotiq_140_description:
     type: git
     url: https://github.com/eaa3/robotiq_140_description.git
     version: 8e65feeb5abd047b5551136a83956d86625fc138
-  ros2_controllers:
+  ur_description:
     type: git
-    url: https://github.com/JafarAbdi/ros2_controllers.git
-    version: 100.0.1
+    url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.git
+    version: 60cbb20c319f41ceae470eecac97fd1000912bd9
+  ur_driver:
+    type: git
+    url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
+    version: 0f161176ac87109e00e73b75d3b8826891c38a5b
+  ur_msgs:
+    type: git
+    url: https://github.com/ros-industrial/ur_msgs.git
+    version: 7a496eded9208f832aac0667e1259a0f3cc3720a

@@ -16,6 +16,9 @@ ur_dashboard_msgs:
 ur_description:
   ubuntu:
   - ros-humble-ur-description
+ur5_robotiq2f140_gripper_description:
+  ubuntu:
+  - ros-humble-ur5-robotiq2f140-gripper-description
 ur_moveit_config:
   ubuntu:
   - ros-humble-ur-moveit-config

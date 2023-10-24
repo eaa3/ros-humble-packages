@@ -1,106 +1,106 @@
 Package: ros-humble-robotiq-140-description
 Architecture: amd64
-Version: 0-2023.10.20.12.20
+Version: 0-2023.10.24.08.54
 Priority: optional
 Section: misc
 Maintainer: Ermano Arruda <ermano.arruda@gmail.com>
 Installed-Size: 1640
 Depends: ros-humble-joint-state-publisher, ros-humble-robot-state-publisher, ros-humble-rviz2, ros-humble-urdf, ros-humble-xacro
-Filename: ./ros-humble-robotiq-140-description_0-2023.10.20.12.20_amd64.deb
-Size: 385526
-MD5sum: 9b5997039b518760ce51a77bf896218e
-SHA1: 4e2598369e8981148c1aeaca277ce68b0935ecd9
-SHA256: 0817dc6705efc8caca256269555a88db539332df1f88e8386b826bf6c2f8cc18
-SHA512: 8b625d163a458b92f36814fa899be43a7d356fe712b5d9545c0d0ed03bf13065915729551f6710a9bdf4d244d30111c86752705e6aaab0c7c2a11dc6edc8d87f
+Filename: ./ros-humble-robotiq-140-description_0-2023.10.24.08.54_amd64.deb
+Size: 385504
+MD5sum: fd67d1a00d3a337ea988de012ea8fa18
+SHA1: a62cd966ff3a17f83e18d63c4c8a0ea15332f1d3
+SHA256: 09bad415f3a5f22aef27f944a005828c2cee99c503ea30e90ee4305af6a467ee
+SHA512: be325055ccca18df5fed6b5143979467a2f03814a0eeebc7d44864c877b2f62cc5de02d5e79350a0479e94e3c35726eb100be18ba5e61d06e83b11fef883671d
 Description: Robotiq 2f 140 URDF
 
 Package: ros-humble-ur-bringup
 Architecture: amd64
-Version: 2.2.9-1-g0f16117-2023.10.20.12.21
+Version: 2.2.9-2-gf499df8-2023.10.24.08.56
 Priority: optional
 Section: misc
 Maintainer: Denis Stogl <denis@stoglrobotics.de>
 Installed-Size: 132
 Depends: ros-humble-controller-manager, ros-humble-force-torque-sensor-broadcaster, ros-humble-joint-state-broadcaster, ros-humble-joint-state-publisher, ros-humble-joint-trajectory-controller, ros-humble-launch, ros-humble-launch-ros, ros-humble-position-controllers, ros-humble-rclpy, ros-humble-robot-state-publisher, ros-humble-ros2-controllers-test-nodes, ros-humble-rviz2, ros-humble-ur-controllers, ros-humble-ur-description, ros-humble-urdf, ros-humble-velocity-controllers, ros-humble-xacro
-Filename: ./ros-humble-ur-bringup_2.2.9-1-g0f16117-2023.10.20.12.21_amd64.deb
-Size: 14390
-MD5sum: 7956e454cb6c6943eee152d8999d9490
-SHA1: f85af58151cf846c2af42cf6e7f4f9187129a999
-SHA256: bf9427c3543d5a4d25c1e23ce4764f069d3f72ed0c63ee5967ff591d614dca26
-SHA512: b4f3d103547938f57b9d382458926032e077c902568822d9c60b3c06a69a5ed91ac1e8a29d4f48f00c31d57b272546da4ffcc00a9467ee112f1669cbe0c71524
+Filename: ./ros-humble-ur-bringup_2.2.9-2-gf499df8-2023.10.24.08.56_amd64.deb
+Size: 14378
+MD5sum: 2f51885290aa65c1af3be42d21216888
+SHA1: 6e23b7167667afcf8fdbbb5661ddbf5faae33fad
+SHA256: 8d14860f4003a1880676eb1ec2c01896fe664d8571340a51cfc70985c9328ea0
+SHA512: c626e57ffc78a82ada517364928e609756a631acacdeef646b2d2c80121acfad8be7b4fe87387867f5f822027f5b269e0260008799cbc3b414ed12ff0a36a7fc
 Description: Launch file and run-time configurations, e.g.
  controllers.
 
 Package: ros-humble-ur-calibration-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.2.9-1-g0f16117-2023.10.20.12.33
+Version: 2.2.9-2-gf499df8-2023.10.24.09.08
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-humble-ur-calibration
 Maintainer: Felix Exner <exner@fzi.de>
 Installed-Size: 1562
-Depends: ros-humble-ur-calibration (= 2.2.9-1-g0f16117-2023.10.20.12.33)
-Filename: ./ros-humble-ur-calibration-dbgsym_2.2.9-1-g0f16117-2023.10.20.12.33_amd64.ddeb
-Size: 1533884
-MD5sum: b851b6e003aa0f3fa921d1c527a55978
-SHA1: 0474325748857ea2059096a70cb409daf3ef029a
-SHA256: 41a5d35c6d46c8e4b217f5fba52017d9fa8b0ceab5168e65f77a28ddfd7872b4
-SHA512: a4ec2412785d417da44094a5fb75e1cd3f7ee84905a6a99d96e5e106a32789a5e769bcf3ba25cf2f5579ddd8e8535f0ddec969a7dd2a83e1d98e2dde8d27ff1b
+Depends: ros-humble-ur-calibration (= 2.2.9-2-gf499df8-2023.10.24.09.08)
+Filename: ./ros-humble-ur-calibration-dbgsym_2.2.9-2-gf499df8-2023.10.24.09.08_amd64.ddeb
+Size: 1533886
+MD5sum: 747c83b39fb9b49ffc34575845bdbc66
+SHA1: ae49e5d03c372066e6ba039ec9a29cafb08006eb
+SHA256: 2bed1b0ef4e6aa9436e55643477f664d1d879f19579d65e843fbde8e8f692293
+SHA512: 59dffa5eea1e135dae7b26b15e8c1ad92fcb51400719ad9dd1debb8f0bf4261c30a6f16a6c0eb07552e75361ec7755ecebc0abbbad09a67840a03359f565cc94
 Description: debug symbols for ros-humble-ur-calibration
-Build-Ids: 5b69b4b100b63e1bc721d877910c41da37b6048e
+Build-Ids: 0c843f8e0c83d99431af34ea399b7926bc3d506d
 
 Package: ros-humble-ur-calibration
 Architecture: amd64
-Version: 2.2.9-1-g0f16117-2023.10.20.12.33
+Version: 2.2.9-2-gf499df8-2023.10.24.09.08
 Priority: optional
 Section: misc
 Maintainer: Felix Exner <exner@fzi.de>
 Installed-Size: 179
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), libeigen3-dev, libyaml-cpp-dev, ros-humble-rclcpp, ros-humble-ur-client-library, ros-humble-ur-robot-driver
-Filename: ./ros-humble-ur-calibration_2.2.9-1-g0f16117-2023.10.20.12.33_amd64.deb
-Size: 51618
-MD5sum: abb8deff354c5b0a349744c0bb1d950b
-SHA1: c301ae14281947d1a8fd285575a2a04ee05ffe9e
-SHA256: a4b049181eef00601fcb569a4896ffaec5ea4152510c1f0e039e117b1f4dc35d
-SHA512: 66c4aaf4afd010c985b79223cd06361d896b06f84c81db0935164d2ab515c058ba8a08c7adcd363746a65bfee25553ba6d187e501e6939efe0e2fc87f0c6511d
+Filename: ./ros-humble-ur-calibration_2.2.9-2-gf499df8-2023.10.24.09.08_amd64.deb
+Size: 51628
+MD5sum: 28437cc3388bb908ca58df5219ce47ea
+SHA1: c8a2e1065b9944b7e56a1515b4cc66bd8f97f608
+SHA256: eaf136afb422985b7c8d09c095ed33f7aa7778022728571e86fbdf808594c217
+SHA512: 785cf467633c14b045ec58a351239b63bdc3f6e8ea1ef41d3410acd86a35bbd24f4f05de2612987ea9cee5b50138220c0c4226fb3ed72c47540cf197d52823ae
 Description: Package for extracting the factory calibration from a UR robot and change it such that it can be used by ur_description to gain a correct URDF
 
 Package: ros-humble-ur-client-library-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 1.3.4-1-g111ddf2-2023.10.20.12.22
+Version: 1.3.4-2-g3e25ffc-2023.10.24.08.57
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-humble-ur-client-library
 Maintainer: Felix Exner <exner@fzi.de>
 Installed-Size: 2583
-Depends: ros-humble-ur-client-library (= 1.3.4-1-g111ddf2-2023.10.20.12.22)
-Filename: ./ros-humble-ur-client-library-dbgsym_1.3.4-1-g111ddf2-2023.10.20.12.22_amd64.ddeb
+Depends: ros-humble-ur-client-library (= 1.3.4-2-g3e25ffc-2023.10.24.08.57)
+Filename: ./ros-humble-ur-client-library-dbgsym_1.3.4-2-g3e25ffc-2023.10.24.08.57_amd64.ddeb
 Size: 2386056
-MD5sum: 3242919703b1ceaa92f3d3e9a402c10f
-SHA1: f610b6d25ba8c1861ef25418400e9ffc7d32303d
-SHA256: ad749fb4a90721fae00185b23f13d07b1876d90fac9346f238c3ca95a629934b
-SHA512: 8b34e944cec2cb5f199bba2f0c6cb99f919b52d3aa67eca0c606e625eab28c03b0761d7c22cd0388ddd521a3dcb959d474c44a9f9406876ca4e5c2a5de3df4cd
+MD5sum: 55a3b6d530fa8bdbba0a0c98884a04f7
+SHA1: 8d3acb9aa26b59691e5b7d84e0dd54a7fc78f5a4
+SHA256: 79953fa7d2b112fc7875d067cf705813da1d5cdc865d51c64d0232c01315a74c
+SHA512: d2869d4edb2a0c1d4114e494c62f9b86d0ecf0185fb299611c9c7727476203bfadd343c3e38414b6f73d7a505db1f62f364bf9694d0f688a6e21d724b79526e5
 Description: debug symbols for ros-humble-ur-client-library
-Build-Ids: 214d362fb17f0ff8329ae017e14ae06d796bec2e
+Build-Ids: 613bfa8483cee921a6237c7d8c820cf7590ace13
 
 Package: ros-humble-ur-client-library
 Architecture: amd64
-Version: 1.3.4-1-g111ddf2-2023.10.20.12.22
+Version: 1.3.4-2-g3e25ffc-2023.10.24.08.57
 Priority: optional
 Section: misc
 Maintainer: Felix Exner <exner@fzi.de>
 Installed-Size: 880
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-ament-cmake
-Filename: ./ros-humble-ur-client-library_1.3.4-1-g111ddf2-2023.10.20.12.22_amd64.deb
-Size: 209624
-MD5sum: 82acdf8a35ab9c278064486c4e4f8cbb
-SHA1: 61d13325c96ebbfefc3ab12ae4b82f55ac0d4079
-SHA256: a06a223d40e00d378ecd427956be9391735bcea8a77c2b177c37687bbd00d219
-SHA512: 173529527d77f7aed7f674f97681ba048a9b196cec47a274a83032a81037598757702f1da6adcb8136d61dfcc4ab9ebaa87243775adaea0d5b67af976e84cbb8
+Filename: ./ros-humble-ur-client-library_1.3.4-2-g3e25ffc-2023.10.24.08.57_amd64.deb
+Size: 209634
+MD5sum: f4039242119ccedb173bedeeb451960e
+SHA1: 2b6c3e679f217bb87a18809bba515c5385898494
+SHA256: 636d8d3af223a1754b5b508fe4434100e1479735129e5f3b017900cccd57bc92
+SHA512: aae4207875f324072ba5c2237addc6925c00db6bab8b69d705b8994a8e187144e06ca62341dff7662d0becdf0b132a6654f3c43433b408b43d5066ab4f52b0b1
 Homepage: http://wiki.ros.org/ur_client_library
 Description: Standalone C++ library for accessing Universal Robots interfaces.
  This has been forked off the ur_robot_driver.
@@ -108,192 +108,208 @@ Description: Standalone C++ library for accessing Universal Robots interfaces.
 Package: ros-humble-ur-controllers-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.2.9-1-g0f16117-2023.10.20.12.28
+Version: 2.2.9-2-gf499df8-2023.10.24.09.04
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-humble-ur-controllers
 Maintainer: Denis Stogl <denis@stoglrobotics.de>
-Installed-Size: 3205
-Depends: ros-humble-ur-controllers (= 2.2.9-1-g0f16117-2023.10.20.12.28)
-Filename: ./ros-humble-ur-controllers-dbgsym_2.2.9-1-g0f16117-2023.10.20.12.28_amd64.ddeb
-Size: 2874628
-MD5sum: 451ee27ef0a993998d82be9fe0b88e3d
-SHA1: 1917546d4733f8396d38a4e654fe76ddf22e151a
-SHA256: d202a18c02dc1d211bb25f0459c39897227b1dd507a86770566f38f9f4b24c20
-SHA512: 509b4564bfaeffa82eb43d1cd19e6f3fd8092a9c1b67b65cd10e25036c117f2e8f8bc58d28f6ef24bd73d00daf9f102155f046424759272f023e596ef6486bd7
+Installed-Size: 3200
+Depends: ros-humble-ur-controllers (= 2.2.9-2-gf499df8-2023.10.24.09.04)
+Filename: ./ros-humble-ur-controllers-dbgsym_2.2.9-2-gf499df8-2023.10.24.09.04_amd64.ddeb
+Size: 2869382
+MD5sum: 2049828a079abd15df254cfec27daa76
+SHA1: ec246ae70191251502d5dcf98b8b0076841fd58d
+SHA256: 5e981e40f226262a4cb37d938125c88e00132f3c2f32ecef6a5922657e316817
+SHA512: 07b38f7f3b0a0432f0fdd62e2768430b240da3e980c2000948c142a8df0a1952bda2892067394a68f022fb584277a51279967b62b26902b480f00569ee155578
 Description: debug symbols for ros-humble-ur-controllers
-Build-Ids: 432c08dde2d341766e7720a51f6a2f797e760120
+Build-Ids: c80f93a9af3edb1a64ec021aee04d6366483cc15
 
 Package: ros-humble-ur-controllers
 Architecture: amd64
-Version: 2.2.9-1-g0f16117-2023.10.20.12.28
+Version: 2.2.9-2-gf499df8-2023.10.24.09.04
 Priority: optional
 Section: misc
 Maintainer: Denis Stogl <denis@stoglrobotics.de>
-Installed-Size: 699
+Installed-Size: 695
 Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-angles, ros-humble-controller-interface, ros-humble-joint-trajectory-controller, ros-humble-lifecycle-msgs, ros-humble-pluginlib, ros-humble-rclcpp-lifecycle, ros-humble-rcutils, ros-humble-realtime-tools, ros-humble-std-msgs, ros-humble-std-srvs, ros-humble-ur-dashboard-msgs, ros-humble-ur-msgs
-Filename: ./ros-humble-ur-controllers_2.2.9-1-g0f16117-2023.10.20.12.28_amd64.deb
-Size: 153584
-MD5sum: 01dc2406848e76568b41f058693900ea
-SHA1: 1eecc6f41c92363cf3aff0ba2d31e8dac900507b
-SHA256: 4be9f0b929f2d28c0da28eab3a267687a68434fe41643c4787c610ca341e8f45
-SHA512: 78c648c6bd196c15456615e7e476415b8b2a57747b2e4c216170cb8e0e6de6913a8cbda53adbc30b1f43ba9920f86e006b27643440240bbd95c6f391d8e71ff5
+Filename: ./ros-humble-ur-controllers_2.2.9-2-gf499df8-2023.10.24.09.04_amd64.deb
+Size: 152922
+MD5sum: ac53d89487f989097031714006ce5b24
+SHA1: 5a43607a0c98b167954d97136609e37c8b042c9d
+SHA256: c2792b6c42bdd0d04340a1a15b47db48d3931ee806185ded41eb164051b37cb6
+SHA512: 8de5867773da9241bc2d769caa7f43fc34eeaadcc17badac5935bb1643f782f88d3a66ff62890b622d11cf7343ae32a885a5659c37079f7d6b8587bcb0f3ccae
 Description: Provides controllers that use the speed scaling interface of Universal Robots.
 
 Package: ros-humble-ur-dashboard-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.2.9-1-g0f16117-2023.10.20.12.23
+Version: 2.2.9-2-gf499df8-2023.10.24.08.58
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-humble-ur-dashboard-msgs
 Maintainer: Felix Exner <exner@fzi.de>
 Installed-Size: 1778
-Depends: ros-humble-ur-dashboard-msgs (= 2.2.9-1-g0f16117-2023.10.20.12.23)
-Filename: ./ros-humble-ur-dashboard-msgs-dbgsym_2.2.9-1-g0f16117-2023.10.20.12.23_amd64.ddeb
-Size: 1166258
-MD5sum: b7dc4cc45a57b6dee85716d3ce237d6a
-SHA1: c0b352389bc90e458183d79c3c8d84630de5f476
-SHA256: bec0fc3e7df992fc9830ed6b426de48916710f6cad9a14b2a18c6764c735d7b8
-SHA512: 26debea339febf48c761d58a15971e0e4eec959e8a4e9e375917cfe911b82bcb4f610ee2d25b2f7c9275fae44034a62997a7b79cff58b0aa9c016fa3c100485d
+Depends: ros-humble-ur-dashboard-msgs (= 2.2.9-2-gf499df8-2023.10.24.08.58)
+Filename: ./ros-humble-ur-dashboard-msgs-dbgsym_2.2.9-2-gf499df8-2023.10.24.08.58_amd64.ddeb
+Size: 1165744
+MD5sum: 02d13946af9a38908ffa4f3999c20d4e
+SHA1: 729e1f13808256ff574d8804f281ef863da50ceb
+SHA256: b1fc6361b135d34c8cc96146cec8b520f7de7d6de4055b1da42eb1d3d072f2c7
+SHA512: e9d611670bc8c7283f94ef68b71f930c87c4de68199de4cd56bfe68d737c7caef811d725d12ab433df8e67cc661819a4568dabab868bfbd304875863d5c6651a
 Description: debug symbols for ros-humble-ur-dashboard-msgs
-Build-Ids: 0916e78ff0d677f67e505053a00a9f8c4ee52227 161aca57690e77520c54f6b21a59a57590b9536c 1ed4be3035eac086d888693fd63ffc4d60575379 326129ced5a368b493504ae1c9257362d9fb177d 594ffa50684a24e8d2c25345536d4c195c2790b2 60dbe83ecf48aea3689ed6f7d7b97347f4cbf86d 6e84ada372e841a1ac0fa76c8fb901b26af98661 7d8f861967baf894ad3ee87a5430a762ecbfcea7 a37cf0c1dde51f620485ae51828f2dc72c4f30df b868b3e5a709172bb0ef2176a0e55eda1ce86ac7 c8c3490b768b533d3a5ee078b36d66915d356b9c f6eb21c51bb053731c36e6f618b28c5f1f88744d
+Build-Ids: 08042c0927afa2570dde9ca27cf1e7da726a5880 2b5a039df91928788340bbb7396a615988ce7fc8 337db9292d7648b445804dd2b987480b44a0cd03 45ff12352bba601fcf22e95fa134e67b19a077dc 5085670b541716b8acd928d642ca91ebf6436565 832cebb90df3c4140f7b7a132b23c4caa2c31f9b 8a717b72256f1489a3cf381c87fd21921f18ed0b a22d0e1dd0019fc6cffdb603fce707670de8744f a436e2429aed0b426990b3e42d1c00e38baa1d47 e69cb1e3e7f931cb473fc54fb9cc2c32341e4b74 eb1b2e088e17622abc4633ebe9620546a919857f f38777669c4454cc4a285126357e74faf4c71d0c
 
 Package: ros-humble-ur-dashboard-msgs
 Architecture: amd64
-Version: 2.2.9-1-g0f16117-2023.10.20.12.23
+Version: 2.2.9-2-gf499df8-2023.10.24.08.58
 Priority: optional
 Section: misc
 Maintainer: Felix Exner <exner@fzi.de>
 Installed-Size: 3355
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2), ros-humble-fastcdr, ros-humble-action-msgs, ros-humble-rosidl-default-runtime
-Filename: ./ros-humble-ur-dashboard-msgs_2.2.9-1-g0f16117-2023.10.20.12.23_amd64.deb
-Size: 188620
-MD5sum: 6f70a4b11f6af5906ccb02d74bb47537
-SHA1: e9c14dbf71dd8764caa772549039fafa942cceab
-SHA256: 81b3380c3d2cd31764918b6d3a76b0639b6c073d0f25f2de16e9c3d2df4e0706
-SHA512: 9248deaeb74f905af1147b5c92086eef3fee71d5d714a2b1a61155a8e4514ffbdb1511fc93d9195d064b47e833b7b16ddda733b0e25899750775b14e57fb4773
+Filename: ./ros-humble-ur-dashboard-msgs_2.2.9-2-gf499df8-2023.10.24.08.58_amd64.deb
+Size: 188654
+MD5sum: 018359da33f54f4b0a80e4b977655177
+SHA1: 11f129cd6870dddbe285f4ffc726df67eafabb7c
+SHA256: e9aed857222ddab2d47b343af5823c8fb05847fffd30fedb98569b6af472a3a3
+SHA512: 82a4e0955754469d82daac8fa306f0d2361c4962c36b4357afcee69164dc53079be7f8eacc202dcc4d5464be84d5b82886125095636e4dce24b94db7fef82140
 Description: Messages around the UR Dashboard server.
 
 Package: ros-humble-ur-description
 Architecture: amd64
-Version: 2.1.1-2-g60cbb20-2023.10.20.12.25
+Version: 2.1.1-2-g60cbb20-2023.10.24.08.59
 Priority: optional
 Section: misc
 Maintainer: Felix Exner <exner@fzi.de>
 Installed-Size: 64608
 Depends: ros-humble-joint-state-publisher-gui, ros-humble-launch, ros-humble-launch-ros, ros-humble-robot-state-publisher, ros-humble-rviz2, ros-humble-urdf, ros-humble-xacro
-Filename: ./ros-humble-ur-description_2.1.1-2-g60cbb20-2023.10.20.12.25_amd64.deb
-Size: 18713864
-MD5sum: 94d175293f95aaf552c422c3545a3eae
-SHA1: 2bea26cb63be2355720e57b7b0d46d44b0de58d6
-SHA256: dda9fdad50b3904859dce317ac7d3ee77834f4842ab763c28fcca4527d8d0029
-SHA512: 86c79ba1a2d62c33d37e8a9c09304f302d20974afbfe1d8992db248610f2478444bbe09156ff4fa12d3b1382b1d4f1edc41a831cc6c7c38caa7f392ce444d1ee
+Filename: ./ros-humble-ur-description_2.1.1-2-g60cbb20-2023.10.24.08.59_amd64.deb
+Size: 18713862
+MD5sum: 349b4488e29183566c5724e8edca5bd2
+SHA1: 2bd6688b29caf6085d8850596225548af4b919a4
+SHA256: 20943daf9b3d6992cebf03893c9a1e2345e8fe0c225d1a6a41a355e9fee5de4b
+SHA512: 12cdf1985d480996f8abf8cae7fca1dad417101f23dc96882a588a23e405ef469e24f03d3f332ed9ead24fd0d00d3899b46f7d83b7ebcfe1de28fbdffefa0619
 Description: URDF description for Universal Robots
 
 Package: ros-humble-ur-moveit-config
 Architecture: amd64
-Version: 2.2.9-1-g0f16117-2023.10.20.12.26
+Version: 2.2.9-2-gf499df8-2023.10.24.09.02
 Priority: optional
 Section: misc
 Maintainer: Denis Stogl <denis@stoglrobotics.de>
 Installed-Size: 107
 Depends: ros-humble-launch, ros-humble-launch-ros, ros-humble-moveit-kinematics, ros-humble-moveit-planners-ompl, ros-humble-moveit-ros-move-group, ros-humble-moveit-ros-visualization, ros-humble-moveit-servo, ros-humble-moveit-simple-controller-manager, ros-humble-rviz2, ros-humble-ur-description, ros-humble-urdf, ros-humble-warehouse-ros-sqlite, ros-humble-xacro
-Filename: ./ros-humble-ur-moveit-config_2.2.9-1-g0f16117-2023.10.20.12.26_amd64.deb
-Size: 17224
-MD5sum: 5a9f6a7330327f68aa6af5d448df9480
-SHA1: a612f46c374ece58432130692e8738d27e47e30b
-SHA256: 83f15f5b0223fbfff979d61d44ec3cef07f20411bfe4ebd6127bccc8b9c1772d
-SHA512: 55cb08cd6c05594dca8ffb550a7ff30a1617e94a456149e3ad8c50e78ad93b7524e1c38576deb6fd899fde02f55a149b4c52d9a6f02f9587752c6cf619f49ea2
+Filename: ./ros-humble-ur-moveit-config_2.2.9-2-gf499df8-2023.10.24.09.02_amd64.deb
+Size: 17222
+MD5sum: 1724f61cafed37c4f0d79c33a0bfabc8
+SHA1: ce9a56c711b46573abd274e36c60ccfebec29c21
+SHA256: 1218a55f76f1541e1c8f3bc551deea2b728640ca07f7b431baae03c10b55830f
+SHA512: af86fa2b60f9055e143f6e98c34d040228b8f0c5f0f7f8dfaedeaf4920430d2c69bcfbcacfb714974b2c85950fddd22e3540a1ec02119d2ebe0586d65b334f88
 Description: An example package with MoveIt2 configurations for UR robots.
 
 Package: ros-humble-ur-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.0.0-1-g7a496ed-2023.10.20.12.27
+Version: 2.0.0-1-g7a496ed-2023.10.24.09.03
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-humble-ur-msgs
 Maintainer: G.A. vd. Hoorn <g.a.vanderhoorn@tudelft.nl>
-Installed-Size: 1193
-Depends: ros-humble-ur-msgs (= 2.0.0-1-g7a496ed-2023.10.20.12.27)
-Filename: ./ros-humble-ur-msgs-dbgsym_2.0.0-1-g7a496ed-2023.10.20.12.27_amd64.ddeb
-Size: 818912
-MD5sum: a0d740a2a955169c204ece012c0ae9cd
-SHA1: e4d5a3aea48de5fe203b7fb975b6913587594292
-SHA256: 9fc462e91fc87b1dd9afce85167ed9cd2157737a694f92cc2431ab27ca658917
-SHA512: bd136ae5493423c5b8692075b2d74cb005848d980ead80de5065ffbc4484fe389242842752cf72f79ecb5cf5ae69b5b2d83d1a3f4197f02804673cce376e3201
+Installed-Size: 1195
+Depends: ros-humble-ur-msgs (= 2.0.0-1-g7a496ed-2023.10.24.09.03)
+Filename: ./ros-humble-ur-msgs-dbgsym_2.0.0-1-g7a496ed-2023.10.24.09.03_amd64.ddeb
+Size: 819666
+MD5sum: 6ab950674592de56439af8e3410c5eab
+SHA1: 23ce334ef25d7a36e7c8c625a8f2ef8f7565d0b8
+SHA256: bc3b9b5e207fabbfbe216c7b1f2be7e1257d6e3f55805000c5ae39ff55923b5a
+SHA512: ec8f2b6ba6fc3beb3371be335722e42634f4c5c5890883e5d2ea2aa07c4631de460179e15b8fcd03d86341bbe21c9df0d5f6a576f01ed3a18b889ae6170f156b
 Description: debug symbols for ros-humble-ur-msgs
-Build-Ids: 101a7f1a87969b1b65bb67bea1e3bd395607a3b4 324ef9fab4044b4bfcc7b90f62e39f282e3844ef 32dd59693536b1f8d3afcd7b549c9a78e32441c5 8846298f59ff15514016066cb5e7fa2e8ab06e09 9d9c796651335ae7b72fdf4db7a66505edf658e4 bc45491e5ab6a9417fff23608ea058c530a52996 bd7a1aedc0dffc1525b2d7823fdf5dbec11a8f46 db97e82160e8c2bac2b2f9c8ce7e39d8bcb55f1f df53f90c66f0a3a39a52201891bbaaadc3dff6e4 dfdd7bccbbaef6e891cc51de120d8b0582a47182 e4ce1d8aff2a638e4d8b52758b1335faac254c5a f83df08680385ca5133884d5b235ab60dc45028a
+Build-Ids: 1559c436c787945f6475115a5c2bb4a8aed3b4ad 27ee87cd6442a70a3045f9cd74bfd5b2e324c4ef 29b093b3f78f405be573cc87809ca2c169d0dc88 3fcb2658c66c5c07c190bd2448665da070bb76cd 41dcc2bc48e16fd7bb7d03f285642953fad5001d 57f2f6170e25d29b47ccdca702b3560b6b53ca10 5e0199e17bb67f0bbbbdb824a0b555cd6d9f4312 be1443318b37981dbdfe0ccbd874ba92cccdc6b1 caf242d4674a854982fb116fb8dc70a82f382517 cd429a744ec49d88491026e3cb5ac200ce030a73 ecd124fe32d681a6e4e2005ddeeb860bdbd5cff4 f4fc874e2056783303a6512a206dcfdf5502131b
 
 Package: ros-humble-ur-msgs
 Architecture: amd64
-Version: 2.0.0-1-g7a496ed-2023.10.20.12.27
+Version: 2.0.0-1-g7a496ed-2023.10.24.09.03
 Priority: optional
 Section: misc
 Maintainer: G.A. vd. Hoorn <g.a.vanderhoorn@tudelft.nl>
 Installed-Size: 2052
 Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.0), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5), ros-humble-fastcdr, ros-humble-builtin-interfaces, ros-humble-geometry-msgs, ros-humble-rosidl-default-runtime
-Filename: ./ros-humble-ur-msgs_2.0.0-1-g7a496ed-2023.10.20.12.27_amd64.deb
-Size: 147954
-MD5sum: 5ba88690f2da36dc1a292ee441760425
-SHA1: b3291f22f113a9ade41f41994eb48d04e9d3b704
-SHA256: c696979796404a4543f031545656dd581517c0cdee86bca071b3fcb0c3d7e45a
-SHA512: b548f08442fc21033e1683280e772a617dad9eb67b6042fbcebacec52859f5038cfca5b70ce192e6ed328ae7678b48d6371c8535f61ec1f8319af6f631d5b3d9
+Filename: ./ros-humble-ur-msgs_2.0.0-1-g7a496ed-2023.10.24.09.03_amd64.deb
+Size: 147994
+MD5sum: 3f0daa5e38f306e4fd134d836598ab74
+SHA1: 42a7989fd21ecf2336092703eae21f453818e6d7
+SHA256: fa22b7526f5031e777ccee8e11b45d2ad88b947be802074382ea5e92ee3d81e3
+SHA512: d33ae43fa88096dfc13424236f31c5ed61010b6449bf256b7c6253fafbd958287812301ec8ff404385ecb76309050bd42b33e24f08405dbef074e93bcbc31963
 Description: Message and service definitions for interacting with Universal Robots robot controllers.
 
 Package: ros-humble-ur-robot-driver-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 2.2.9-1-g0f16117-2023.10.20.12.30
+Version: 2.2.9-2-gf499df8-2023.10.24.09.06
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-humble-ur-robot-driver
 Maintainer: Denis Stogl <denis@stoglrobotics.de>
 Installed-Size: 11759
-Depends: ros-humble-ur-robot-driver (= 2.2.9-1-g0f16117-2023.10.20.12.30)
-Filename: ./ros-humble-ur-robot-driver-dbgsym_2.2.9-1-g0f16117-2023.10.20.12.30_amd64.ddeb
-Size: 10205756
-MD5sum: 84ea54839ebc8894d8c1c2aa8fb1a09a
-SHA1: 34c949f8f4bf6a8e2e391c821ad98f276c7d8934
-SHA256: 261f8a58abd8baf8685ce781584a370d6ba158a501837cede430e328897f6ec7
-SHA512: a078d1eb93ab5ba83402a4034e59e96146d7234afcc99e05fc2e866a5ebc5e5c5e135d8c74944243d08657af4a80631be6763a50649f6b5e795fe9bb1bafe66e
+Depends: ros-humble-ur-robot-driver (= 2.2.9-2-gf499df8-2023.10.24.09.06)
+Filename: ./ros-humble-ur-robot-driver-dbgsym_2.2.9-2-gf499df8-2023.10.24.09.06_amd64.ddeb
+Size: 10206010
+MD5sum: 44c3fd030acb795a795a4263b7fa53fb
+SHA1: 134ce3745426e67c3cd416772d93347bcd41d695
+SHA256: 90d357c775e76d66eb43faf997e897dea8aadc9de9d56439277ac05d623d3bbf
+SHA512: 431129c0b854860e81846b29ba80e229fae22fbda2f08b01fbc42a8dbfbf2722a89ea3f1826ccb5967d43735ffe3613a7567c05d7a6ff404ef4ad7cc926bb4ff
 Description: debug symbols for ros-humble-ur-robot-driver
-Build-Ids: 3f75bd7f801edf18a470e4817d1fd4993c276931 4bd0cf93ee8b41554fa8a585cebe3aee649f4f7f 59fbb36608412bf49c810718eabfa81e29c7566f 6e6e9a3b0a9e2231bbba841aeed9d93f1c10afdd 948e4a4d40ba2a5817320716fea94a9ea78bdc34
+Build-Ids: 117ce5d1ff3b17d7e6db6d9f3f5719f1eb55859e 78b88fce83249ee222a64ef21d0967a495c0d3b6 97aa4796cd4abe873dd1b5b2365aaaa96101448e d4c3b7ac85e21ded9b248e5aae9158b944e9e15e f9ff412dd8989450d4673af9c378ef3baefbd7aa
 
 Package: ros-humble-ur-robot-driver
 Architecture: amd64
-Version: 2.2.9-1-g0f16117-2023.10.20.12.30
+Version: 2.2.9-2-gf499df8-2023.10.24.09.06
 Priority: optional
 Section: misc
 Maintainer: Denis Stogl <denis@stoglrobotics.de>
 Installed-Size: 2219
 Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-controller-manager, ros-humble-controller-manager-msgs, ros-humble-force-torque-sensor-broadcaster, ros-humble-geometry-msgs, ros-humble-hardware-interface, ros-humble-joint-state-broadcaster, ros-humble-joint-state-publisher, ros-humble-joint-trajectory-controller, ros-humble-launch, ros-humble-launch-ros, ros-humble-pluginlib, ros-humble-position-controllers, ros-humble-rclcpp, ros-humble-rclcpp-lifecycle, ros-humble-rclpy, ros-humble-robot-state-publisher, ros-humble-ros2-controllers-test-nodes, ros-humble-rviz2, ros-humble-std-msgs, ros-humble-std-srvs, ros-humble-tf2-geometry-msgs, ros-humble-ur-client-library, ros-humble-ur-controllers, ros-humble-ur-dashboard-msgs, ros-humble-ur-description, ros-humble-ur-msgs, ros-humble-urdf, ros-humble-velocity-controllers, ros-humble-xacro, socat
-Filename: ./ros-humble-ur-robot-driver_2.2.9-1-g0f16117-2023.10.20.12.30_amd64.deb
-Size: 574610
-MD5sum: 2318ee6f68ccfdadd84d8c685106b256
-SHA1: 5d09cce9615a5fd3a471fc12e28b7eb403153c60
-SHA256: dcde41dad004c2125b45085f320475dd9691e2804e70dedf837a01ec7de2b4ec
-SHA512: 4edeb057c59b3cfa3b96ec7213867e5b669d0905ebaa1bac9172a47499b4a28e69841c0a8a7b1c0d51869dc69b995d388f9bc62a3b721bd995552c7a28e8ef21
+Filename: ./ros-humble-ur-robot-driver_2.2.9-2-gf499df8-2023.10.24.09.06_amd64.deb
+Size: 574600
+MD5sum: 8831f988ccaf639a9eb2c9b376915f29
+SHA1: 8ec9b1fa793b8aab65077f7788744a8adf65bf2c
+SHA256: 7c80832d2a974d1653a602ee58ad9c57d1912258078d5a6267f7a222031a4ffe
+SHA512: 7d0860ce5090616527afe1b8bbd87ee7eb756e8bb420ab5f138fb5f0566be159f4535486fcf2cefeb0055deb44fb2804c406e86beaebed8b68d10067a7dd58d5
 Description: The new driver for Universal Robots UR3, UR5 and UR10 robots with CB3 controllers and the e-series.
+
+Package: ros-humble-ur5-robotiq2f140-gripper-description
+Architecture: amd64
+Version: 0-2023.10.24.09.01
+Priority: optional
+Section: misc
+Maintainer: Ermano Arruda <todo@mail.to>
+Installed-Size: 129
+Depends: ros-humble-launch, ros-humble-launch-ros, ros-humble-robot-state-publisher, ros-humble-robotiq-140-description, ros-humble-rviz2, ros-humble-ur-description, ros-humble-urdf, ros-humble-xacro
+Filename: ./ros-humble-ur5-robotiq2f140-gripper-description_0-2023.10.24.09.01_amd64.deb
+Size: 13506
+MD5sum: 620c45023c4927ee120c354ab9c8e534
+SHA1: 8bff39a432e91303d204eeb2b52995b69132be07
+SHA256: edef6e20abc7f07e11ae2bc7546508cf8376927bc844caec0855b8a6bedf4c2e
+SHA512: ab5b67efd7ae08feb0b73ab94c06ab5ba8949e2bc1fd80b78584b9de6210dfb0363d5a21e4a7e8ed599db362f1cbc53e8ba90c28dba1d02ab166becd5b50d17b
+Description: UR5 description with Robotiq 2f 140mm gripper
 
 Package: ros-humble-ur
 Architecture: amd64
-Version: 2.2.9-1-g0f16117-2023.10.20.12.21
+Version: 2.2.9-2-gf499df8-2023.10.24.08.55
 Priority: optional
 Section: misc
 Maintainer: Felix Exner <exner@fzi.de>
 Installed-Size: 40
 Depends: ros-humble-ur-calibration, ros-humble-ur-controllers, ros-humble-ur-dashboard-msgs, ros-humble-ur-moveit-config, ros-humble-ur-robot-driver
-Filename: ./ros-humble-ur_2.2.9-1-g0f16117-2023.10.20.12.21_amd64.deb
-Size: 5126
-MD5sum: 5ad5947079aab60186bad697b4612b33
-SHA1: db82a0894f86e8e2f69e1bfe0abc70531df956b6
-SHA256: 5baae9813027a02ff102c48c44ebdbe84976b182fca99d81ed72e3214f83b7a8
-SHA512: bf7dfcbe9a7c1d41394c60033d2b5f2682a95e0c18b1afb9a5c8922da798b0057c86a920084a82f5030821e9b7cea4750dc603899f7fbae213b5d04e85d4cc47
+Filename: ./ros-humble-ur_2.2.9-2-gf499df8-2023.10.24.08.55_amd64.deb
+Size: 5128
+MD5sum: a4dceb2c30b7678d8b6251c37d78306f
+SHA1: eee9eff2762ed8bd768ba1bb38e287d06a7bda69
+SHA256: dd2a8f084ddd88c89b91225506be0dc2a9c3158f4f5773d6b2db555eb5188ea0
+SHA512: 005a007ebc866103547e280ffe4a656d36ebc7fea7362d5df67e1994502ff78ea42491e82ef4243bafc9d5c9efbafeb950ed538c22ef23a910dc28ce52f4c0f7
 Description: Metapackage for universal robots
 

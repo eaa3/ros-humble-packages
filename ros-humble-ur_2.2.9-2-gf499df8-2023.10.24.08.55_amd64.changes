@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Fri, 22 Sep 2023 00:00:00 -0000
+Source: ros-humble-ur
+Binary: ros-humble-ur
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.2.9-2-gf499df8-2023.10.24.08.55
+Distribution: jammy
+Urgency: high
+Maintainer: Felix Exner <exner@fzi.de>
+Changed-By: Felix Exner <exner@fzi.de>
+Description:
+ ros-humble-ur - Metapackage for universal robots
+Changes:
+ ros-humble-ur (2.2.9-2-gf499df8-2023.10.24.08.55) jammy; urgency=high
+Checksums-Sha1:
+ a765bd70f29c15d7ff2b06beb727cf040e0696a2 10866 ros-humble-ur_2.2.9-2-gf499df8-2023.10.24.08.55_amd64.buildinfo
+ eee9eff2762ed8bd768ba1bb38e287d06a7bda69 5128 ros-humble-ur_2.2.9-2-gf499df8-2023.10.24.08.55_amd64.deb
+Checksums-Sha256:
+ 4a126d292e14d00a6c667e9ea7474f024bf6432b571f9bb91ac781f199b88453 10866 ros-humble-ur_2.2.9-2-gf499df8-2023.10.24.08.55_amd64.buildinfo
+ dd2a8f084ddd88c89b91225506be0dc2a9c3158f4f5773d6b2db555eb5188ea0 5128 ros-humble-ur_2.2.9-2-gf499df8-2023.10.24.08.55_amd64.deb
+Files:
+ 8e690c9ecd0512d6acf6ebcab062bd10 10866 misc optional ros-humble-ur_2.2.9-2-gf499df8-2023.10.24.08.55_amd64.buildinfo
+ a4dceb2c30b7678d8b6251c37d78306f 5128 misc optional ros-humble-ur_2.2.9-2-gf499df8-2023.10.24.08.55_amd64.deb

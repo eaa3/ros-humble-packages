@@ -23,3 +23,7 @@ repositories:
     type: git
     url: https://github.com/eaa3/ur5_robotiq2f140_gripper_description.git
     version: master
+  ur5_gripper_bringup:
+    type: git
+    url: https://github.com/eaa3/ur5_gripper_bringup.git
+    version: main

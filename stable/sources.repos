@@ -19,3 +19,7 @@ repositories:
     type: git
     url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
     version: master
+  ur5_robotiq2f140_gripper_description:
+    type: git
+    url: https://github.com/eaa3/ur5_robotiq2f140_gripper_description.git
+    version: master

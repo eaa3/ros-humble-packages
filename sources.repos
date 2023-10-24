@@ -11,10 +11,14 @@ repositories:
     type: git
     url: https://github.com/eaa3/ur5_gripper_bringup.git
     version: 95b28cdf718712d9b03c3bf4a34816abfe42c972
+  ur5_gripper_moveit_config:
+    type: git
+    url: https://github.com/eaa3/ur5_gripper_moveit_config.git
+    version: 9a39c7641c3b1d2084319d2c80c88a998771e971
   ur5_robotiq2f140_gripper_description:
     type: git
     url: https://github.com/eaa3/ur5_robotiq2f140_gripper_description.git
-    version: 240ace4788f61857443a3c0b3546990e779b012c
+    version: 019463672ec53d0fec45e29139ff91ba9c59ccec
   ur_description:
     type: git
     url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.git

@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Fri, 22 Sep 2023 00:00:00 -0000
+Source: ros-humble-ur-bringup
+Binary: ros-humble-ur-bringup
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.2.9-2-gf499df8-2023.10.24.17.58
+Distribution: jammy
+Urgency: high
+Maintainer: Denis Stogl <denis@stoglrobotics.de>
+Changed-By: Denis Stogl <denis@stoglrobotics.de>
+Description:
+ ros-humble-ur-bringup - Launch file and run-time configurations, e.g.
+Changes:
+ ros-humble-ur-bringup (2.2.9-2-gf499df8-2023.10.24.17.58) jammy; urgency=high
+Checksums-Sha1:
+ ecc904a70cbe6fc6329f207fdc94e56b9229fc56 13995 ros-humble-ur-bringup_2.2.9-2-gf499df8-2023.10.24.17.58_amd64.buildinfo
+ bdbec4bf3b383ce5ea2827391f18d761141bd58b 14378 ros-humble-ur-bringup_2.2.9-2-gf499df8-2023.10.24.17.58_amd64.deb
+Checksums-Sha256:
+ ec7de3364d085e6917b4bfc559627fe248a45720025fbfe63053baf524589512 13995 ros-humble-ur-bringup_2.2.9-2-gf499df8-2023.10.24.17.58_amd64.buildinfo
+ 42c98dc2cbd539e16d0e9c65e808cb9520312a1f03391518c642675fc6bf806c 14378 ros-humble-ur-bringup_2.2.9-2-gf499df8-2023.10.24.17.58_amd64.deb
+Files:
+ 80fcb2d3d90ed92a39355b24e0ae46b1 13995 misc optional ros-humble-ur-bringup_2.2.9-2-gf499df8-2023.10.24.17.58_amd64.buildinfo
+ 67d9bc67ec041a1222b802530d01dee2 14378 misc optional ros-humble-ur-bringup_2.2.9-2-gf499df8-2023.10.24.17.58_amd64.deb

@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 22 Sep 2023 00:00:00 -0000
+Source: ros-humble-ur-dashboard-msgs
+Binary: ros-humble-ur-dashboard-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.2.9-2-gf499df8-2023.10.24.18.00
+Distribution: jammy
+Urgency: high
+Maintainer: Felix Exner <exner@fzi.de>
+Changed-By: Felix Exner <exner@fzi.de>
+Description:
+ ros-humble-ur-dashboard-msgs - Messages around the UR Dashboard server.
+Changes:
+ ros-humble-ur-dashboard-msgs (2.2.9-2-gf499df8-2023.10.24.18.00) jammy; urgency=high
+Checksums-Sha1:
+ 9665fbb291ecf0c139c9e7e501ae51ad24abb0a7 1165730 ros-humble-ur-dashboard-msgs-dbgsym_2.2.9-2-gf499df8-2023.10.24.18.00_amd64.ddeb
+ 6254c5c5b7fe3b014610b9135664950287a0adcd 12941 ros-humble-ur-dashboard-msgs_2.2.9-2-gf499df8-2023.10.24.18.00_amd64.buildinfo
+ 44218a9fcf64d5f833b4de12fe854379de1baa20 188660 ros-humble-ur-dashboard-msgs_2.2.9-2-gf499df8-2023.10.24.18.00_amd64.deb
+Checksums-Sha256:
+ cdddcb336233909233e28d354f0c5a06f3db40834b954c8df657a00e54a9d00c 1165730 ros-humble-ur-dashboard-msgs-dbgsym_2.2.9-2-gf499df8-2023.10.24.18.00_amd64.ddeb
+ ee0756c528610382f91dd1c3e79e86f97bc6ad032a27e151e5cf6708956c53ef 12941 ros-humble-ur-dashboard-msgs_2.2.9-2-gf499df8-2023.10.24.18.00_amd64.buildinfo
+ 3d5a2e9632ed21681e9f09cc836f1f0c111cbf3c728b87256c5ebaed69a962ec 188660 ros-humble-ur-dashboard-msgs_2.2.9-2-gf499df8-2023.10.24.18.00_amd64.deb
+Files:
+ acd915b3941d137fda637fd6c7a1bafb 1165730 debug optional ros-humble-ur-dashboard-msgs-dbgsym_2.2.9-2-gf499df8-2023.10.24.18.00_amd64.ddeb
+ 6a5969fa877f328ccf5a47d73f57f500 12941 misc optional ros-humble-ur-dashboard-msgs_2.2.9-2-gf499df8-2023.10.24.18.00_amd64.buildinfo
+ 3c8bed421308f744804b865054fe40ac 188660 misc optional ros-humble-ur-dashboard-msgs_2.2.9-2-gf499df8-2023.10.24.18.00_amd64.deb

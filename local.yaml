@@ -31,6 +31,9 @@ ur_controllers:
 ur_robot_driver:
   ubuntu:
   - ros-humble-ur-robot-driver
+ur5_gripper_bringup:
+  ubuntu:
+  - ros-humble-ur5-gripper-bringup
 ur_calibration:
   ubuntu:
   - ros-humble-ur-calibration

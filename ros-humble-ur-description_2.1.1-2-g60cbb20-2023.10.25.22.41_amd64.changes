@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Fri, 08 Sep 2023 00:00:00 -0000
+Source: ros-humble-ur-description
+Binary: ros-humble-ur-description
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.1.1-2-g60cbb20-2023.10.25.22.41
+Distribution: jammy
+Urgency: high
+Maintainer: Felix Exner <exner@fzi.de>
+Changed-By: Felix Exner <exner@fzi.de>
+Description:
+ ros-humble-ur-description - URDF description for Universal Robots
+Changes:
+ ros-humble-ur-description (2.1.1-2-g60cbb20-2023.10.25.22.41) jammy; urgency=high
+ .
+   * Update the joint limits for UR20 (#99 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/99>)
+   * UR20 description and meshes (#94 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/94>)
+     The UR20 meshes are added under Universal Robots A/S’
+     Terms and Conditions for Use of Graphical Documentation
+     Co-authored-by: Rune Søe-Knudsen <mailto:41109954+urrsk@users.noreply.github.com>
+   * Revert "Switch fake to mock for ros2_control updates (#77 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/77>)"
+   * Switch fake to mock for ros2_control updates (#77 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/77>)
+   * CI: Add iron workflow (#64 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/64>)
+   * Contributors: Felix Exner, Sebastian Castro, Rune Søe-Knudsen
+Checksums-Sha1:
+ 66ca088cfec2d241b184fb69d5e6e6da28f7c9d8 14803 ros-humble-ur-description_2.1.1-2-g60cbb20-2023.10.25.22.41_amd64.buildinfo
+ 77dd4a6da415a52f7c2e569b105a7eecf9f33b34 18713862 ros-humble-ur-description_2.1.1-2-g60cbb20-2023.10.25.22.41_amd64.deb
+Checksums-Sha256:
+ 222daeecd7747e082fc821e00b2d8e6e5d844a76eaef0f5872fd2360f3074fe9 14803 ros-humble-ur-description_2.1.1-2-g60cbb20-2023.10.25.22.41_amd64.buildinfo
+ b44b80a10b9c39c4639fe5b54f27ea458bd8424935c160294226307e38398035 18713862 ros-humble-ur-description_2.1.1-2-g60cbb20-2023.10.25.22.41_amd64.deb
+Files:
+ 72cdfc58d325c1c97a2e9253e1b8d863 14803 misc optional ros-humble-ur-description_2.1.1-2-g60cbb20-2023.10.25.22.41_amd64.buildinfo
+ f0a76650d4fc5f62d5ab3ccfa122281f 18713862 misc optional ros-humble-ur-description_2.1.1-2-g60cbb20-2023.10.25.22.41_amd64.deb

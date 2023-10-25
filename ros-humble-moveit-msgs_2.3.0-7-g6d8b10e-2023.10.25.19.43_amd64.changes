@@ -1,0 +1,46 @@
+Format: 1.8
+Date: Sun, 10 Sep 2023 00:00:00 -0000
+Source: ros-humble-moveit-msgs
+Binary: ros-humble-moveit-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.3.0-7-g6d8b10e-2023.10.25.19.43
+Distribution: jammy
+Urgency: high
+Maintainer: Dave Coleman <dave@dav.ee>
+Changed-By: Dave Coleman <dave@dav.ee>
+Description:
+ ros-humble-moveit-msgs - Messages, services and actions used by MoveIt
+Changes:
+ ros-humble-moveit-msgs (2.3.0-7-g6d8b10e-2023.10.25.19.43) jammy; urgency=high
+ .
+   * Remove drift and control dimension services, add ServoCommandType service and ServoStatus message (#161 <https://github.com/ros-planning/moveit_msgs/issues/161>)
+   * Merge commit '1c7f63e' into ros2
+   * Add controller names to execution (#160 <https://github.com/ros-planning/moveit_msgs/issues/160>)
+   * 0.11.3
+   * Rename: cartesian_speed_end_effector_link -> cartesian_speed_limited_link (#130 <https://github.com/ros-planning/moveit_msgs/issues/130>)
+     Co-authored-by: Thies Oelerich <mailto:thies.oelerich@iwu.fraunhofer.de>
+   * clean all trailing whitespace in definitions (#134 <https://github.com/ros-planning/moveit_msgs/issues/134>)
+   * CI: Update pat-s/always-upload-cache
+   * Remove disclaimer from CollisionObject pose (#126 <https://github.com/ros-planning/moveit_msgs/issues/126>)
+     With https://github.com/ros-planning/moveit/pull/2037 merged, this disclaimer can be removed
+   * fix long comments in msg (#123 <https://github.com/ros-planning/moveit_msgs/issues/123>)
+   * Added message fields for setting the maximum cartesian end effector for cartesian paths (#113 <https://github.com/ros-planning/moveit_msgs/issues/113>)
+     * Added message fields for setting the maximum cartesian end effector
+     speed of the computed path.
+     * Add disclaimer for (yet) unsupported field
+     Co-authored-by: Thies Oelerich <mailto:thies.oelerich@iwu.fraunhofer.de>
+     Co-authored-by: Michael Görner <mailto:me@v4hn.de>
+   * Contributors: Felix von Drigalski, Henning Kayser, Michael Görner, Peter Mitrano, Robert Haschke, Stephanie Eng, Thies Oelerich, V Mohammed Ibrahim, Vatan Aksoy Tezer
+Checksums-Sha1:
+ 3d280f41114714dfa7a9dd292a1fc40de70362e9 12065120 ros-humble-moveit-msgs-dbgsym_2.3.0-7-g6d8b10e-2023.10.25.19.43_amd64.ddeb
+ 88b014c5e24959e8e196baafea5e4b40bb609a00 13441 ros-humble-moveit-msgs_2.3.0-7-g6d8b10e-2023.10.25.19.43_amd64.buildinfo
+ d5e6c938a90fc3a16916d5c9ff89f776807c2574 1028580 ros-humble-moveit-msgs_2.3.0-7-g6d8b10e-2023.10.25.19.43_amd64.deb
+Checksums-Sha256:
+ a88188d6f3931a0b85e264085c9ee6ddb1f708b6a1f9123a99b80787a726e62a 12065120 ros-humble-moveit-msgs-dbgsym_2.3.0-7-g6d8b10e-2023.10.25.19.43_amd64.ddeb
+ 466858895fc13fe0a39efe2d18f1c4bc09c4795cc3d28a4044c5ba47db8ba047 13441 ros-humble-moveit-msgs_2.3.0-7-g6d8b10e-2023.10.25.19.43_amd64.buildinfo
+ 660c659fc849e884f8dbecc825ee3c28215a44a08bc4daed4a2271db7d0768f4 1028580 ros-humble-moveit-msgs_2.3.0-7-g6d8b10e-2023.10.25.19.43_amd64.deb
+Files:
+ 319dca4fb0ed729956d9e6788f101ef4 12065120 debug optional ros-humble-moveit-msgs-dbgsym_2.3.0-7-g6d8b10e-2023.10.25.19.43_amd64.ddeb
+ d08fe482af3e4aebb69cbaa048294219 13441 misc optional ros-humble-moveit-msgs_2.3.0-7-g6d8b10e-2023.10.25.19.43_amd64.buildinfo
+ 89e51fa5aa6e3989754b7357147895c5 1028580 misc optional ros-humble-moveit-msgs_2.3.0-7-g6d8b10e-2023.10.25.19.43_amd64.deb

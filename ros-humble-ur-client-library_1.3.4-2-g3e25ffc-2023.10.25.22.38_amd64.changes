@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Fri, 22 Sep 2023 00:00:00 -0000
+Source: ros-humble-ur-client-library
+Binary: ros-humble-ur-client-library
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.3.4-2-g3e25ffc-2023.10.25.22.38
+Distribution: jammy
+Urgency: high
+Maintainer: Felix Exner <exner@fzi.de>
+Changed-By: Felix Exner <exner@fzi.de>
+Description:
+ ros-humble-ur-client-library - Standalone C++ library for accessing Universal Robots interfaces.
+Changes:
+ ros-humble-ur-client-library (1.3.4-2-g3e25ffc-2023.10.25.22.38) jammy; urgency=high
+ .
+   * Make depreaction warning for keepalive_counter a warning instead of error (#182 <https://github.com/UniversalRobots/Universal_Robots_Client_Library/issues/182>)
+   * Added watchdog configuration for the reverse socket (#178 <https://github.com/UniversalRobots/Universal_Robots_Client_Library/issues/178>)
+   * Add support for ur20 in start_ursim script (#179 <https://github.com/UniversalRobots/Universal_Robots_Client_Library/issues/179>)
+   * Use pre-commit for clang-format (#175 <https://github.com/UniversalRobots/Universal_Robots_Client_Library/issues/175>)
+   * Make tcp_server retry binding the socket (#176 <https://github.com/UniversalRobots/Universal_Robots_Client_Library/issues/176>)
+   * Contributors: Felix Exner, Mads Holm Peters
+Checksums-Sha1:
+ 06b7b858b55e59666834e79635b94570d30770c3 2386058 ros-humble-ur-client-library-dbgsym_1.3.4-2-g3e25ffc-2023.10.25.22.38_amd64.ddeb
+ e9fcb421c1118cf1ea8e2acd0d82659acc4996d0 7390 ros-humble-ur-client-library_1.3.4-2-g3e25ffc-2023.10.25.22.38_amd64.buildinfo
+ f18b1c224893d4ba264a0818f9fcc24e6318f6ea 209626 ros-humble-ur-client-library_1.3.4-2-g3e25ffc-2023.10.25.22.38_amd64.deb
+Checksums-Sha256:
+ 17f75d2274e7f5c0db5d368d022051371e13f18a769f2fa84656b803b391b683 2386058 ros-humble-ur-client-library-dbgsym_1.3.4-2-g3e25ffc-2023.10.25.22.38_amd64.ddeb
+ 4e86a2e99a339cb0bde062febcd0de5ba9601f99d0e85392d14124238bd4824d 7390 ros-humble-ur-client-library_1.3.4-2-g3e25ffc-2023.10.25.22.38_amd64.buildinfo
+ 768688143b7414d365ccbd0a3bd0b627378fc71ccea2a67498f53e0605573e04 209626 ros-humble-ur-client-library_1.3.4-2-g3e25ffc-2023.10.25.22.38_amd64.deb
+Files:
+ 262bd17c3d585312d7598569f432cb27 2386058 debug optional ros-humble-ur-client-library-dbgsym_1.3.4-2-g3e25ffc-2023.10.25.22.38_amd64.ddeb
+ 55e6f889bac5b0e53e278ce11ba31a89 7390 misc optional ros-humble-ur-client-library_1.3.4-2-g3e25ffc-2023.10.25.22.38_amd64.buildinfo
+ 3ef5a22f77fca2e88350c1032d9e8fa7 209626 misc optional ros-humble-ur-client-library_1.3.4-2-g3e25ffc-2023.10.25.22.38_amd64.deb

@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Fri, 22 Sep 2023 00:00:00 -0000
+Source: ros-humble-ur-robot-driver
+Binary: ros-humble-ur-robot-driver
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.2.9-2-gf499df8-2023.10.25.22.50
+Distribution: jammy
+Urgency: high
+Maintainer: Denis Stogl <denis@stoglrobotics.de>
+Changed-By: Denis Stogl <denis@stoglrobotics.de>
+Description:
+ ros-humble-ur-robot-driver - The new driver for Universal Robots UR3, UR5 and UR10 robots with
+Changes:
+ ros-humble-ur-robot-driver (2.2.9-2-gf499df8-2023.10.25.22.50) jammy; urgency=high
+ .
+   * Added a test that sjtc correctly aborts on violation of constraints
+   * Added support for UR20 (#805 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver/issues/805>)
+   * Introduced tf_prefix into log handler (#713 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver/issues/713>)
+   * Start ursim from lib (#733 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver/issues/733>)
+   * Run robot driver test also with tf_prefix (#729 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver/issues/729>)
+   * Urscript interface (#721 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver/issues/721>) (#742 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver/issues/742>)
+   * Contributors: Felix Exner, Lennart Nachtigall, mergify[bot]
+Checksums-Sha1:
+ 95ee5fef06bfa6ad33fe0ba88afbc315d0e44310 10205408 ros-humble-ur-robot-driver-dbgsym_2.2.9-2-gf499df8-2023.10.25.22.50_amd64.ddeb
+ 7ff8db3cf8effdecc225b80a2b05ec979d9451e6 27739 ros-humble-ur-robot-driver_2.2.9-2-gf499df8-2023.10.25.22.50_amd64.buildinfo
+ b82c89eb3bc84c9bf3adcb933dc768dadff46858 574622 ros-humble-ur-robot-driver_2.2.9-2-gf499df8-2023.10.25.22.50_amd64.deb
+Checksums-Sha256:
+ 36391b44781f21fd98597fbabe3dc9c4d22decd5a6d57679e159243a0cf3d433 10205408 ros-humble-ur-robot-driver-dbgsym_2.2.9-2-gf499df8-2023.10.25.22.50_amd64.ddeb
+ 8ed9957946ab5c693956130f0c205b4578fe25c6f9ace5e771e35d96f35fb281 27739 ros-humble-ur-robot-driver_2.2.9-2-gf499df8-2023.10.25.22.50_amd64.buildinfo
+ e0ec425568aa1164643bc93eada43aae590ab8bdd3b6a60fb77783913ddad540 574622 ros-humble-ur-robot-driver_2.2.9-2-gf499df8-2023.10.25.22.50_amd64.deb
+Files:
+ bbba05957365254249d0e035ce61b8c7 10205408 debug optional ros-humble-ur-robot-driver-dbgsym_2.2.9-2-gf499df8-2023.10.25.22.50_amd64.ddeb
+ 103034e9f5fab6812fa0fdfc5e42abf4 27739 misc optional ros-humble-ur-robot-driver_2.2.9-2-gf499df8-2023.10.25.22.50_amd64.buildinfo
+ 4b374b4cc19986a9b1e7b760678107e0 574622 misc optional ros-humble-ur-robot-driver_2.2.9-2-gf499df8-2023.10.25.22.50_amd64.deb

@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Fri, 22 Sep 2023 00:00:00 -0000
+Source: ros-humble-ur-controllers
+Binary: ros-humble-ur-controllers
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.2.9-2-gf499df8-2023.10.25.22.48
+Distribution: jammy
+Urgency: high
+Maintainer: Denis Stogl <denis@stoglrobotics.de>
+Changed-By: Denis Stogl <denis@stoglrobotics.de>
+Description:
+ ros-humble-ur-controllers - Provides controllers that use the speed scaling interface of Univ
+Changes:
+ ros-humble-ur-controllers (2.2.9-2-gf499df8-2023.10.25.22.48) jammy; urgency=high
+ .
+   * Update sjtc to newest upstream API
+   * Contributors: Felix Exner
+Checksums-Sha1:
+ 74480acbc0643d4e04a49311a347fde681fb7aec 2869386 ros-humble-ur-controllers-dbgsym_2.2.9-2-gf499df8-2023.10.25.22.48_amd64.ddeb
+ 45637929795d2477524a385855b02c63505f106b 16843 ros-humble-ur-controllers_2.2.9-2-gf499df8-2023.10.25.22.48_amd64.buildinfo
+ 1386052ece35a7e4a5f534414891a9661d5704b9 152930 ros-humble-ur-controllers_2.2.9-2-gf499df8-2023.10.25.22.48_amd64.deb
+Checksums-Sha256:
+ b69f6a5d769ff020315844e2c65deb3a8b5d9528ca4b9d6d7429f936084dded5 2869386 ros-humble-ur-controllers-dbgsym_2.2.9-2-gf499df8-2023.10.25.22.48_amd64.ddeb
+ 13f26c2be2fc828e07f2241d7235affd394c4533cbec8f35c667909ba7d41e20 16843 ros-humble-ur-controllers_2.2.9-2-gf499df8-2023.10.25.22.48_amd64.buildinfo
+ c30fa2063104c264333cbfd55b9f3c27ed5cbfe021a93709ddb72dbd63005714 152930 ros-humble-ur-controllers_2.2.9-2-gf499df8-2023.10.25.22.48_amd64.deb
+Files:
+ cd156df40a92aabaf9301c18ec0c461f 2869386 debug optional ros-humble-ur-controllers-dbgsym_2.2.9-2-gf499df8-2023.10.25.22.48_amd64.ddeb
+ 65dea20479db7f41c416dfafec40ffe5 16843 misc optional ros-humble-ur-controllers_2.2.9-2-gf499df8-2023.10.25.22.48_amd64.buildinfo
+ 31eec33171d70e44640afb3c79f153b4 152930 misc optional ros-humble-ur-controllers_2.2.9-2-gf499df8-2023.10.25.22.48_amd64.deb

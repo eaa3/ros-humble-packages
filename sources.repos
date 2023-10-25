@@ -3,6 +3,14 @@ repositories:
     type: git
     url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
     version: 3e25ffc6f2a9cf05768dd2e2dc5e01c2d7fedc93
+  moveit2:
+    type: git
+    url: https://github.com/JafarAbdi/moveit2.git
+    version: 100.0.2
+  moveit_msgs:
+    type: git
+    url: https://github.com/ros-planning/moveit_msgs.git
+    version: 6d8b10ebc1d3ed95dde206512a8f9af0bb44dbfb
   robotiq_140_description:
     type: git
     url: https://github.com/eaa3/robotiq_140_description.git

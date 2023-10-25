@@ -31,5 +31,13 @@ repositories:
     type: git
     url: https://github.com/eaa3/ur5_gripper_moveit_config.git
     version: main
+  moveit2:
+    type: git
+    url: https://github.com/JafarAbdi/moveit2.git
+    version: release
+  moveit_msgs:
+    type: git
+    url: https://github.com/ros-planning/moveit_msgs.git
+    version: ros2
     
 
